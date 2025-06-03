@@ -98,8 +98,7 @@ header .header_texts button:hover{
 .latest .furnitures{
     width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 150px;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 .latest .furnitures img{
@@ -125,10 +124,10 @@ header .header_texts button:hover{
     padding-top: 60px;
 }
 .luxury_bed img{
-    margin-left: 150px;
+    margin-left: 90px;
 }
 .luxury_bed .bed_text h1{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 40px;
 }
 .luxury_bed .bed_text p{
@@ -157,7 +156,7 @@ header .header_texts button:hover{
 }
 .our_products{
     display: flex;
-    padding-left: 20px;
+    justify-content: center;
 }
 .our_products .op_img_card{
     margin-left: 35px;
