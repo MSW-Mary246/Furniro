@@ -16,6 +16,7 @@ header{
 }
 header .navbar{
     display: flex;
+    justify-content: center;
     position: fixed;
     background-color: #000000;
     width: 100%;
