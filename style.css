@@ -11,7 +11,7 @@ html{
 header{
     width: 100%;
     height: 580px;
-    background-image: url(./Images/header_image.png);
+    background-image: url(./Images/home_headerimg.png);
     background-size: cover;
 }
 header .navbar{
