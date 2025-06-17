@@ -7,12 +7,11 @@
 html{
     scroll-behavior: smooth;
 }
-/* HOMEPAGE START */
 /* HEADER START */
 header{
     width: 100%;
     height: 580px;
-    background-image: url(./Images-MSW/header_image.png);
+    background-image: url(./Images/header_image.png);
     background-size: cover;
 }
 header .navbar{
@@ -66,146 +65,121 @@ header .header_icons{
 header .header_icons > i{
     margin-right: 20px;
 }
-header .header_texts{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+header .header_icons > i:hover{
+    cursor: pointer;
 }
-header .header_texts h1{
-    color: #FFD700;
-    padding-top: 250px;
-    font-size: 40px;
+header .header_bluredimage_texts{
+    position: relative;
 }
-header .header_texts button{
-    margin-top: 20px;
-    padding: 20px 50px 20px 50px;
-    background-color: black;
-    color: #FFD700;
-    margin-left: auto;
-    border: none;
-    transition: 0.5s ease-in-out;
-}
-header .header_texts button:hover{
-    color: #000000;
-    background-color: #FFD700;
-}
-/* HEADER END */
-/* LATEST FURNITURES START */
-.latest h2{
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    font-size: 30px;
-}
-.latest .furnitures{
+header .header_bluredimage_texts img{
+    filter: brightness(1.5);
+    opacity: 0.4;
     width: 100%;
+    height: 300px;
+}
+header .header_bluredimage_texts h1{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+header .header_bluredimage_texts p{
+    position: absolute;
+    top: 200px;
+    left: 690px;
+}
+/* HEADER ENDS */
+/* LOGIN START */
+.login{
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-}
-.latest .furnitures img{
-    width: 300px;
-    height: 425px;
-    border-radius: 10px;
-}
-.latest .furnitures .product-image .text h4{
-    margin-top: 20px;
-    text-align: center;
-    align-items: center;
-    font-size: 18px;
-}
-/* LATEST FURNITURES END */
-/* LUXURY BED START */
-.luxury_bed{
-    display: flex;
+    justify-content: center;
     gap: 100px;
-    background-color: #000;
-    color: #FFD700;
-    margin-bottom: 100px;
-    height: 520px;
-    padding-top: 60px;
 }
-.luxury_bed img{
-    margin-left: 150px;
+.image-section {
+    width: 450px;
+    padding: 20px;
 }
-.luxury_bed .bed_text h1{
-    font-size: 40px;
-    margin-top: 40px;
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
-.luxury_bed .bed_text p{
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 35px;
+.login-section {
+    width: 450px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.luxury_bed .bed_text .shop_btn button{
-    margin-top: 25px;
-    padding: 10px 30px;
-    color: #000;
-    background-color: #FFD700;
-    border: none;
-    border-radius: 5px;
+.login-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
 }
-.luxury_bed .bed_text .shop_btn button:hover{
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group input,
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+.options-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.options-group label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #555;
+}
+.options-group input {
+    margin-right: 8px;
+}
+.options-group a {
+    color: #007bff; 
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.options-group a:hover {
     text-decoration: underline;
 }
-/* LUXURY BED END */
-/* OUR PRODUCTS START */
-#op_title{
-    font-size: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
-}
-.our_products{
-    display: flex;
-    justify-content: center;
-}
-.our_products .op_img_card{
-    margin-left: 35px;
-    margin-bottom: 50px;
-    background-color: rgb(241, 241, 241);
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    filter: brightness(1);
-    transition: filter 0.5s ease-in-out;
-    position: relative;
-    overflow: hidden;
-
-}
-.our_products .op_img_card:hover{
-    filter: brightness(0.7);
-    overflow: visible;
-}
-.our_products .op_img_card img{
-    width: 250px;
-    height: 280px;
-    z-index: 0;
-}
-.our_products .op_img_card #op_button{
-    background-color: white;
-    color: #FFD700;
+.login-button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 20px;
     border: none;
-    padding: 15px 30px 15px 30px;
-    position: absolute;
-    top: 120px;
-    left: 60px;
-    z-index: 1;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 0.3s ease;
 }
-.our_products .op_img_card h1{
-    font-size: 25px;
-    margin: 10px 10px 5px 15px;
+.login-button:hover {
+    background-color: #333;
 }
-.our_products .op_img_card #op_img_label{
-    font-size: 15px;
-    margin: 0px 10px 5px 15px;
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
 }
-.our_products .op_img_card #op_price{
-    font-size: 18px;
-    font-weight: 800;
-    margin: 0px 10px 25px 15px;
+.signup-link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
 }
-/* OUR PRODUCTS END */
+.signup-link a:hover {
+    text-decoration: underline;
+}
+/* LOGIN END */
 /* FOOTER START */
 footer{
     background-color: #000;
@@ -283,134 +257,3 @@ footer .footer-bottom {
     color: #FFD700;
 }
 /* FOOTER END */
-/* HOMEPAGE END */
-/* ABOUT PAGE START */
-/* FOUNDER START */
-.about_owner{
-    background-color: #000;
-    width: 100%;
-    height: 500px;
-}
-.about_owner .owner{
-    display: flex;
-    margin-left: 180px;
-}
-.about_owner .owner img{
-    margin-top: 95px;
-}
-.about_owner .owner .about_text{
-    margin-top: 75px;
-    margin-left: 150px;
-    color: #FFD700;
-}
-.about_owner .owner .about_text h2{
-    font-size: 43px;
-    margin-bottom: 20px;
-}
-.about_owner .owner .about_text .name{
-    margin-bottom: 20px;
-    font-size: 30px;
-}
-.about_owner .owner .about_text p{
-    font-size: 20px;
-}
-/* FOUNDER END */
-/* QUALITY AND SERVICE START */
-.quality_service{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 150px;
-    gap: 10px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.quality_service i{
-    font-size: 40px;
-}
-.quality_service .details h3{
-    margin-bottom: 0;
-    font-size: 20px;
-    margin-right: 100px;
-}
-.quality_service .details p{
-    color: #666;
-    font-size: 15px;
-}
-/* QUALITY AND SERVICE END */
-/* FOOTER START */
-footer{
-    background-color: #000;
-    padding: 40px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #FFD700;
-}
-footer .footer-content{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    max-width: 1200px;
-    flex-wrap: wrap;
-}
-footer .footer-content .footer-section{
-    margin: 20px;
-    min-width: 150px;
-}
-footer .footer-content .footer-section h3{
-    font-size: 1.1em;
-    color: #FFD700;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-footer .footer-content .footer-section ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-footer .footer-content .footer-section ul li{
-    margin-bottom: 10px;
-}
-footer .footer-content .footer-section ul li a{
-    text-decoration: none;
-    color: #FFD700;
-    font-size: 0.95em;
-}
-footer .footer-content .footer-section ul li a:hover{
-    text-decoration: underline;
-    color: orange;
-    transition: 0.3s;
-}
-footer .footer-content .footer-logo-address {
-    margin-right: 50px;
-    }
-footer .footer-content .footer-logo-address h2 {
-    font-size: 1.8em;
-    color: #FFD700;
-    margin-bottom: 10px;
-}
-footer .footer.footer-logo-address p {
-    font-size: 0.9em;
-    color: #FFD700;
-    line-height: 1.5;
-}
-footer .footer-content .footer-section .payment-icons {
-    display: flex;
-    gap: 10px;
-    margin-top: 5px;
-}
-footer .footer-bottom {
-    border-top: 1px solid #ddd;
-    margin-top: 40px;
-    padding-top: 20px;
-    text-align: center;
-    width: 74%;
-    max-width: 1200px;
-}
-.footer-bottom p {
-    text-align: left;
-    font-size: 0.85em;
-    color: #FFD700;
-}
-/* FOOTER END */
-/* ABOUT PAGE END */

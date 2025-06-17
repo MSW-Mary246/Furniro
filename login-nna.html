@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style-nna.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER STARTS -->
+    <header>
+        <div class="navbar">
+            <img src="./NNA-Image/logo.png" alt="Logo">
+            <h1>Furniro</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="header_icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="header_bluredimage_texts">
+            <img src="./NNA-Image/headerimg.jpg" alt="No Images Found">
+            <h1>Login</h1>
+            <p>Home > Login</p>
+        </div>
+    <!-- HEADER ENDS -->
+    <!-- LOGIN START -->
+    <div class="login">
+        <div class="image-section">
+            <img src="NNA-Image/living.jpg" alt="">
+        </div>
+        <div class="login-section">
+            <h2>Login</h2>
+            <form>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="input-group">
+                    <select id="role" name="role">
+                        <option value="">Please Select Role</option>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                <div class="options-group">
+                    <label for="keepLoggedIn">
+                        <input type="checkbox" id="keepLoggedIn" name="keepLoggedIn" checked> Keep me logged in
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-button">Log in</button>
+            </form>
+            <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+    <!-- LOGIN END -->
+    <!-- FOOTER START -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo-address">
+                <h2>Furniro.</h2>
+                <p>
+                    400 University Drive Suite 200 Coral Gables, <br>
+                    FL 33134 USA
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Care</h3>
+                <ul>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Payment Information</h3>
+                <div class="payment-icons">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-regular fa-credit-card"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2025 funiture Shop. Design By O-Technique Myanmar</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+</html>
