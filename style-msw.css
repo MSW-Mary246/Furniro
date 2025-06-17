@@ -89,3 +89,25 @@ header .header_bluredimage_texts p{
     left: 540px;
 }
 /* HEADER ENDS */
+/* REGISTER STARTS */
+.register_form_img{
+    display: flex;
+}
+.register_form_img .register_img img{
+    width: 350px;
+    height: 450px;
+    margin-left: 300px;
+}
+.register_form_img .register_form{
+    margin-left: 60px;
+}
+.register_form_img .register_form h1{
+    margin-bottom: 20px;
+}
+.register_form_img .form_textboxes > input{
+    display: block;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
