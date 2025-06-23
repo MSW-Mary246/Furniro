@@ -76,19 +76,19 @@ header .header_bluredimage_texts{
     position: relative;
 }
 header .header_bluredimage_texts img{
-    filter: brightness(3);
-    opacity: 0.5;
+    filter: brightness(6);
+    opacity: 0.3;
     width: 100%;
     height: 300px;
 }
 header .header_bluredimage_texts h1{
     position: absolute;
-    top: 150px;
+    top: 130px;
     left: 500px;
 }
 header .header_bluredimage_texts p{
     position: absolute;
-    top: 200px;
+    top: 180px;
     left: 540px;
 }
 /* HEADER END */
