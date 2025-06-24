@@ -80,12 +80,12 @@ header .header_bluredimage_texts img{
 header .header_bluredimage_texts h1{
     position: absolute;
     top: 150px;
-    left: 700px;
+    left: 810px;
 }
 header .header_bluredimage_texts p{
     position: absolute;
     top: 200px;
-    left: 690px;
+    left: 800px;
 }
 /* HEADER ENDS */
 /* LOGIN START */
@@ -224,7 +224,7 @@ footer .footer-content .footer-section ul li a:hover{
     transition: 0.3s;
 }
 footer .footer-content .footer-logo-address {
-    margin-right: 50px;
+    margin-left: -20px;
     }
 footer .footer-content .footer-logo-address h2 {
     font-size: 1.8em;
