@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* HEADER START */
+header{
+    width: 100%;
+    height: 580px;
+    background-image: url(./Images/home_headerimg.png);
+    background-size: cover;
+}
+header .navbar{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #000000;
+    width: 100%;
+    z-index: 1;
+}
+header .navbar img{
+    width: 50px;
+    height: 30px;
+    margin: 15px 10px 10px 30px;
+}
+header .navbar h1{
+    font-size: 25px;
+    color: #FFD700;
+}
+header .navbar ul{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header .navbar h1{
+    margin-top: 12px;
+}
+header .navbar ul>li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+header .navbar ul>li>a{
+    text-decoration: none;
+    color: #FFD700;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    padding: 10px;
+}
+header .navbar ul a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: #FFD700;
+    border-radius: 8px;
+}
+header .header_icons{
+    margin-left: 220px;
+    margin-top: 20px;
+    color: #FFD700;
+}
+header .header_icons > i{
+    margin-right: 20px;
+}
+header .header_icons > i:hover{
+    cursor: pointer;
+}
+header .header_texts{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header .header_texts h1{
+    color: #FFD700;
+    padding-top: 250px;
+    font-size: 40px;
+}
+header .header_texts button{
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px;
+    background-color: black;
+    color: #FFD700;
+    margin-left: auto;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+header .header_texts button:hover{
+    color: #000000;
+    background-color: #FFD700;
+}
+/* HEADER END */
+/* LATEST FURNITURES START */
+.latest h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.latest .furnitures{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.latest .furnitures img{
+    width: 300px;
+    height: 425px;
+    border-radius: 10px;
+}
+.latest .furnitures .product-image .text h4{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+/* LATEST FURNITURES END */
+/* LUXURY BED START */
+.luxury_bed{
+    display: flex;
+    gap: 100px;
+    background-color: #000;
+    color: #FFD700;
+    margin-bottom: 100px;
+    height: 520px;
+    padding-top: 60px;
+}
+.luxury_bed img{
+    margin-left: 90px;
+}
+.luxury_bed .bed_text h1{
+    font-size: 35px;
+    margin-top: 40px;
+}
+.luxury_bed .bed_text p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.luxury_bed .bed_text .shop_btn button{
+    margin-top: 25px;
+    padding: 10px 30px;
+    color: #000;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+}
+.luxury_bed .bed_text .shop_btn button:hover{
+    text-decoration: underline;
+}
+/* LUXURY BED END */
+/* OUR PRODUCTS START */
+#op_title{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.our_products{
+    display: flex;
+    justify-content: center;
+}
+.our_products .op_img_card{
+    margin-left: 35px;
+    margin-bottom: 50px;
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    filter: brightness(1);
+    transition: filter 0.5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+
+}
+.our_products .op_img_card:hover{
+    filter: brightness(0.7);
+    overflow: visible;
+}
+.our_products .op_img_card img{
+    width: 250px;
+    height: 280px;
+    z-index: 0;
+}
+.our_products .op_img_card #op_button{
+    background-color: white;
+    color: #FFD700;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    z-index: 1;
+}
+.our_products .op_img_card h1{
+    font-size: 25px;
+    margin: 10px 10px 5px 15px;
+}
+.our_products .op_img_card #op_img_label{
+    font-size: 15px;
+    margin: 0px 10px 5px 15px;
+}
+.our_products .op_img_card #op_price{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0px 10px 25px 15px;
+}
+/* OUR PRODUCTS END */
+/* FOOTER START */
+footer{
+    background-color: #000;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+footer .footer-content .footer-section{
+    margin: 20px;
+    min-width: 150px;
+}
+footer .footer-content .footer-section h3{
+    font-size: 1.1em;
+    color: #FFD700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+footer .footer-content .footer-section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer .footer-content .footer-section ul li{
+    margin-bottom: 10px;
+}
+footer .footer-content .footer-section ul li a{
+    text-decoration: none;
+    color: #FFD700;
+    font-size: 0.95em;
+}
+footer .footer-content .footer-section ul li a:hover{
+    text-decoration: underline;
+    color: orange;
+    transition: 0.3s;
+}
+footer .footer-content .footer-logo-address {
+    margin-right: 50px;
+    }
+footer .footer-content .footer-logo-address h2 {
+    font-size: 1.8em;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+footer .footer-content .footer-logo-address p {
+    font-size: 0.9em;
+    color: #FFD700;
+    line-height: 1.5;
+}
+footer .footer-content .footer-section .payment-icons{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #FFD700;
+}
+footer .footer-bottom {
+    border-top: 1px solid #FFD700;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    width: 74%;
+    max-width: 1200px;
+}
+.footer-bottom p {
+    text-align: left;
+    font-size: 0.85em;
+    color: #FFD700;
+}
+/* FOOTER END */
