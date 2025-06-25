@@ -11,7 +11,11 @@ html{
 header{
     width: 100%;
     height: 580px;
+<<<<<<< HEAD:style-nna.css
     background-image: url(./Images/header_image.png);
+=======
+    background-image: url(./Images/home_headerimg.png);
+>>>>>>> 36b5827d35de0c65891cc99d36f417336769914d:home_style.css
     background-size: cover;
 }
 header .navbar{
@@ -67,6 +71,14 @@ header .header_icons > i{
 }
 header .header_icons > i:hover{
     cursor: pointer;
+<<<<<<< HEAD:style-nna.css
+=======
+}
+header .header_texts{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+>>>>>>> 36b5827d35de0c65891cc99d36f417336769914d:home_style.css
 }
 header .header_bluredimage_texts{
     position: relative;
@@ -94,6 +106,7 @@ header .header_bluredimage_texts p{
     justify-content: center;
     gap: 100px;
 }
+<<<<<<< HEAD:style-nna.css
 .image-section {
     width: 450px;
     padding: 20px;
@@ -102,6 +115,14 @@ header .header_bluredimage_texts p{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+=======
+.luxury_bed img{
+    margin-left: 90px;
+}
+.luxury_bed .bed_text h1{
+    font-size: 35px;
+    margin-top: 40px;
+>>>>>>> 36b5827d35de0c65891cc99d36f417336769914d:home_style.css
 }
 .login-section {
     width: 450px;
