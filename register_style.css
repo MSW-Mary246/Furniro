@@ -1,0 +1,218 @@
+/* REGISTER PAGE START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* HEADER START */
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(./Images-MSW/register_headerimg.jpg);
+    background-size: cover;
+}
+header .navbar{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #000000;
+    width: 100%;
+    z-index: 1;
+}
+header .navbar img{
+    width: 50px;
+    height: 30px;
+    margin: 15px 10px 10px 30px;
+}
+header .navbar h1{
+    font-size: 25px;
+    color: #FFD700;
+}
+header .navbar ul{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header .navbar h1{
+    margin-top: 12px;
+}
+header .navbar ul>li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+header .navbar ul>li>a{
+    text-decoration: none;
+    color: #FFD700;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    padding: 10px;
+}
+header .navbar ul a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: #FFD700;
+    border-radius: 8px;
+}
+header .header_icons{
+    margin-left: 220px;
+    margin-top: 20px;
+    color: #FFD700;
+}
+header .header_icons > i{
+    margin-right: 20px;
+}
+header .header_icons > i:hover{
+    cursor: pointer;
+}
+header .header_icons > i:hover{
+    cursor: pointer;
+}
+header .header_bluredimage_texts{
+    position: relative;
+}
+header .header_bluredimage_texts img{
+    filter: brightness(6);
+    opacity: 0.3;
+    width: 100%;
+    height: 300px;
+}
+header .header_bluredimage_texts h1{
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+header .header_bluredimage_texts p{
+    position: absolute;
+    top: 180px;
+    left: 540px;
+}
+/* HEADER END */
+/* REGISTER START */
+.register_form_img{
+    display: flex;
+}
+.register_form_img .register_img img{
+    width: 350px;
+    height: 450px;
+    margin: 30px 0px 30px 300px;
+}
+.register_form_img .register_form{
+    margin-left: 60px;
+}
+.register_form_img .register_form h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.register_form_img .form_textboxes > input{
+    display: block;
+    margin-bottom: 15px;
+    width: 230px;
+    height: 30px;
+    padding-left: 10px;
+}
+.register_form_img .register_form .form_textboxes #cancel_button{
+    border: 2px solid black;
+    padding: 3px 28px 3px 28px;
+    border-radius: 5px;
+    font-weight: 800;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.register_form_img .register_form .form_textboxes #cancel_button:hover{
+    background-color: rgb(238, 238, 238);
+}
+.register_form_img .register_form .form_textboxes #register_button{
+        border: 2px solid black;
+    padding: 3px 28px 3px 28px;
+    border-radius: 5px;
+    font-weight: 800;
+    background-color: black;
+    color: #FFD700;
+}
+.register_form_img .register_form p{
+    font-size: 12px;
+}
+/* REGISTER END */
+/* FOOTER START */
+footer{
+    background-color: #000;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+footer .footer-content .footer-section{
+    margin: 20px;
+    min-width: 150px;
+}
+footer .footer-content .footer-section h3{
+    font-size: 1.1em;
+    color: #FFD700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+footer .footer-content .footer-section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer .footer-content .footer-section ul li{
+    margin-bottom: 10px;
+}
+footer .footer-content .footer-section ul li a{
+    text-decoration: none;
+    color: #FFD700;
+    font-size: 0.95em;
+}
+footer .footer-content .footer-section ul li a:hover{
+    text-decoration: underline;
+    color: orange;
+    transition: 0.3s;
+}
+footer .footer-content .footer-logo-address {
+    margin-left: -20px;
+    }
+footer .footer-content .footer-logo-address h2 {
+    font-size: 1.8em;
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+footer .footer-content .footer-logo-address p {
+    font-size: 0.9em;
+    color: #FFD700;
+    line-height: 1.5;
+}
+footer .footer-content .footer-section .payment-icons{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #FFD700;
+}
+footer .footer-bottom {
+    border-top: 1px solid #FFD700;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    width: 74%;
+    max-width: 1200px;
+}
+.footer-bottom p {
+    text-align: left;
+    font-size: 0.85em;
+    color: #FFD700;
+}
+/* FOOTER END */
