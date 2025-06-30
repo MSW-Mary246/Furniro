@@ -1,4 +1,4 @@
- /* ABOUT PAGE START */
+/* ABOUT PAGE START */
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +11,9 @@ html{
 /* HEADER START */
 header{
     width: 100%;
+    height: 580px;
+    background-image: url(./Images-MSW/header_image.png);
+    background-size: cover;
 }
 header .navbar{
     display: flex;
@@ -63,142 +66,36 @@ header .header_icons{
 header .header_icons > i{
     margin-right: 20px;
 }
-header .header_icons > i:hover{
-    cursor: pointer;
-}
-header .header_bluredimage_texts{
-    position: relative;
-}
-header .header_bluredimage_texts img{
-    filter: brightness(1.5);
-    opacity: 0.5;
-    width: 100%;
-    height: 350px;
-}
-header .header_bluredimage_texts h1{
-    position: absolute;
-    top: 150px;
-    left: 550px;
-}
-header .header_bluredimage_texts p{
-    position: absolute;
-    top: 200px;
-    left: 560px;
-}
-/* HEADER ENDS */
-/* SHOP LOCATION STARTS */
-.shop_location{
-    display: flex;
-    justify-content: space-evenly;
-}
-.shop_location .location_texts h1{
-    font-size: 34px;
-    margin: 60px 0px 90px 0px;
-}
-.shop_location .location_texts h2{
-    font-size: 28px;
-    font-weight: 200;
-    margin: 0px 0px 50px 0px;
-}
-.shop_location .location_texts h4{
-    font-size: 18px;
-    margin: 0px 0px 30px 0px;
-    font-weight: 200;
-}
-.shop_location .location_texts p{
-    font-size: 15px;
-    margin: 0px;
-}
-.shop_location .location_map iframe{
-    width: 500px;
-    height: 460px;
-    margin-top: 30px;
-}
-/* SHOP LOCATION ENDS */
-/* FOOTER START */
-footer{
-    background-color: #000;
-    padding: 40px 0;
-    display: flex;
-    flex-direction: column;
+header .header_texts{
+    justify-content: center;
     align-items: center;
-}
-footer .footer-content{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    max-width: 1200px;
-    flex-wrap: wrap;
-}
-footer .footer-content .footer-section{
-    margin: 20px;
-    min-width: 150px;
-}
-footer .footer-content .footer-section h3{
-    font-size: 1.1em;
-    color: #FFD700;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-footer .footer-content .footer-section ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-footer .footer-content .footer-section ul li{
-    margin-bottom: 10px;
-}
-footer .footer-content .footer-section ul li a{
-    text-decoration: none;
-    color: #FFD700;
-    font-size: 0.95em;
-}
-footer .footer-content .footer-section ul li a:hover{
-    text-decoration: underline;
-    color: orange;
-    transition: 0.3s;
-}
-footer .footer-content .footer-logo-address {
-    margin-right: 50px;
-    }
-footer .footer-content .footer-logo-address h2 {
-    font-size: 1.8em;
-    color: #FFD700;
-    margin-bottom: 10px;
-}
-footer .footer-content .footer-logo-address p {
-    font-size: 0.9em;
-    color: #FFD700;
-    line-height: 1.5;
-}
-footer .footer-content .footer-section .payment-icons{
-    display: flex;
-    gap: 30px;
-    font-size: 20px;
-    margin-top: 5px;
-    color: #FFD700;
-}
-footer .footer-bottom {
-    border-top: 1px solid #FFD700;
-    margin-top: 40px;
-    padding-top: 20px;
     text-align: center;
-    width: 74%;
-    max-width: 1200px;
 }
-.footer-bottom p {
-    text-align: left;
-    font-size: 0.85em;
+header .header_texts h1{
     color: #FFD700;
+    padding-top: 250px;
+    font-size: 40px;
 }
-/* FOOTER END */
-/* HOMEPAGE END */
-/* ABOUT PAGE START */
+header .header_texts button{
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px;
+    background-color: black;
+    color: #FFD700;
+    margin-left: auto;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+header .header_texts button:hover{
+    color: #000000;
+    background-color: #FFD700;
+}
+/* HEADER END */
 /* FOUNDER START */
 .about_owner{
     background-color: #000;
     width: 100%;
     height: 500px;
+    justify-content: space-around;
 }
 .about_owner .owner{
     display: flex;
@@ -206,10 +103,10 @@ footer .footer-bottom {
 }
 .about_owner .owner img{
     margin-top: 95px;
+    margin-right: 50px;
 }
 .about_owner .owner .about_text{
     margin-top: 75px;
-    margin-left: 150px;
     color: #FFD700;
 }
 .about_owner .owner .about_text h2{
@@ -221,15 +118,14 @@ footer .footer-bottom {
     font-size: 30px;
 }
 .about_owner .owner .about_text p{
-    font-size: 20px;
+    font-size: 18px;
 }
 /* FOUNDER END */
 /* QUALITY AND SERVICE START */
 .quality_service{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 150px;
-    gap: 10px;
+    justify-content: space-around;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -240,6 +136,9 @@ footer .footer-bottom {
     margin-bottom: 0;
     font-size: 20px;
     margin-right: 100px;
+}
+.quality_service #details_hq i{
+    margin-left: 40px;
 }
 .quality_service .details p{
     color: #666;
